@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
             // Use Color.parseColor to define HTML colors
             paint.setColor(Color.parseColor("#FF0000"));
             canvas.drawCircle(300, 300, 100, paint);
+            canvas.drawCircle(800, 300, 100, paint);
             canvas.drawLine(20, 0, 500, 500 , paint);
+
         }
 
        }
