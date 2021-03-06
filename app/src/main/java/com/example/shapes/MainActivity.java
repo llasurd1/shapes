@@ -2,6 +2,7 @@ package com.example.shapes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -36,8 +37,13 @@ public class MainActivity extends AppCompatActivity {
             paint.setColor(Color.parseColor("#FF0000"));
             canvas.drawCircle(300, 300, 100, paint);
             canvas.drawCircle(800, 300, 100, paint);
-            canvas.drawLine(20, 0, 500, 500 , paint);
-
+            canvas.drawLine(550, 450, 700, 600 , paint);
+            canvas.drawLine(700, 600, 550, 750 , paint);
+            canvas.drawCircle(100, 900, 50, paint);
+            canvas.drawCircle(1000, 900, 50, paint);
+            canvas.drawCircle(300, 1100, 50, paint);
+            canvas.drawCircle(800, 1100, 50, paint);
+            canvas.drawCircle(550, 1200, 50, paint);
         }
 
        }
